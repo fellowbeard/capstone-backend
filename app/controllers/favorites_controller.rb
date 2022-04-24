@@ -4,13 +4,18 @@ class FavoritesController < ApplicationController
     render json: favorites.as_json
   end
 
-  # def create
-  #   favorite = Favorite.new(
-  #     user_id: params[:user_id],
-  #     plant_id: params[:plant_id]
-  #   )
-  #   favorite.save
-  #   render json: favorite.as_json
-  # end
+  def create
+    favorite = Favorite.new(
+      user_id: params[:user_id],
+      plant_id: params[:plant_id]
+    )
+    favorite.save
+    render json: favorite.as_json
+  end
+
+  def show
+    favorite = Favorite.find_by(id: params[:id])
+    render json: favorite.as_json
+  end
 
 end

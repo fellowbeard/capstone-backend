@@ -1,0 +1,28 @@
+### Favorites Index
+GET http://localhost:3000/favorites
+
+### Favorites Create
+POST http://localhost:3000/favorites/
+Content-Type: application/json
+
+{
+"user_id": 4,
+"plant_id": 11
+}
+
+### Favorites Show
+GET http://localhost:3000/favorite/1
+
+### Plants Index
+GET http://localhost:3000/plants
+
+
+### User Create
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "test name",
+  "email": "email",
+  "password": "password"
+}
