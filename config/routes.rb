@@ -12,7 +12,11 @@ Rails.application.routes.draw do
   ### Plants Index
   get "/plants" => "plants#index"
 
-  ### User Routes
+  ### User Create
 
   post "/users" => "users#create"
+
+  ### Sessions Create
+
+  post "/sessions" => "sessions#create"
 end

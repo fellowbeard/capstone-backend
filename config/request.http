@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NTEwMTI2MDZ9.-bh2Tqu0x03llivhj1OKup5ncIwnI3HroRiZEVj8aBQ
+
 ### Favorites Index
 GET http://localhost:3000/favorites
 
@@ -11,18 +13,28 @@ Content-Type: application/json
 }
 
 ### Favorites Show
-GET http://localhost:3000/favorite/1
+GET http://localhost:3000/favorites/11
 
 ### Plants Index
 GET http://localhost:3000/plants
 
 
-### User Create
+### User Create (sign-up)
 POST http://localhost:3000/users
 Content-Type: application/json
 
 {
   "name": "test name",
-  "email": "email",
+  "email": "test@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Sessions Create (login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
   "password": "password"
 }
