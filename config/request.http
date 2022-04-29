@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NTEwMTI2MDZ9.-bh2Tqu0x03llivhj1OKup5ncIwnI3HroRiZEVj8aBQ
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NTEyODEwMDV9.EcFhDq4oST57tcy2SPle5NVmboz5e4mjUywhDORdAN8
 
 ### Favorites Index
 GET http://localhost:3000/favorites
