@@ -5,5 +5,6 @@ class PlantsController < ApplicationController
     render json: plants.as_json
   end
   
+  
 end
 
