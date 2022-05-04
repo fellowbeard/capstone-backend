@@ -1,4 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NTEyODEwMDV9.EcFhDq4oST57tcy2SPle5NVmboz5e4mjUywhDORdAN8
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NTE3ODE2Nzd9.6VG-HZ7_lEXkLaeVsXiM0sYiVA3mZ36-_DwutsaBbf0
 
 ### Favorites Index
 GET http://localhost:3000/favorites
@@ -14,6 +14,9 @@ Content-Type: application/json
 
 ### Favorites Show
 GET http://localhost:3000/favorites/11
+
+### Favorites Destroy
+DELETE http://localhost:3000/favorites/5
 
 ### Plants Index
 GET http://localhost:3000/plants
