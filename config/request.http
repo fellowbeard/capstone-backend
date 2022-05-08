@@ -12,8 +12,6 @@ Content-Type: application/json
 "plant_id": 11
 }
 
-### Favorites Show
-GET http://localhost:3000/favorites/11
 
 ### Favorites Destroy
 DELETE http://localhost:3000/favorites/
@@ -21,6 +19,8 @@ DELETE http://localhost:3000/favorites/
 ### Plants Index
 GET http://localhost:3000/plants
 
+### Plants Show
+GET http://localhost:3000/plants/11
 
 ### User Create (sign-up)
 POST http://localhost:3000/users

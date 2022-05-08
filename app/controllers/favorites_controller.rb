@@ -9,16 +9,12 @@ class FavoritesController < ApplicationController
       user_id: params[:user_id],
       plant_id: params[:plant_id],
       title: params[:title],
-      image_url: params[:image_url]
+      image_url: params[:image_url],
+      description: params[:description]
     )
     favorite.save
     render json: favorite
-  end
-
-  def show
-    favorite = Favorite.find_by(id: params[:id])
-    render json: favorite
-  end
+end
 
   def destroy
     favorite = Favorite.find_by(id: params[:id])

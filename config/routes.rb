@@ -5,12 +5,13 @@ Rails.application.routes.draw do
 
   post "/favorites" => "favorites#create"
 
-  get "/favorites/:id" => "favorites#show"
-
+  
   delete "/favorites/:id" => "favorites#destroy"
-
+  
   ### Plants Index
   get "/plants" => "plants#index"
+  
+  get "/plants/:id" => "plants#show"
 
   ### User Create
 
