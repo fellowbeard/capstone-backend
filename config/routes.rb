@@ -20,4 +20,9 @@ Rails.application.routes.draw do
   ### Sessions Create
 
   post "/sessions" => "sessions#create"
+
+  ### Twilio
+
+  get "/twilio/sms" => "twilio#create"
+
 end

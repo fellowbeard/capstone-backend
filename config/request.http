@@ -41,3 +41,7 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
+
+### Twilio Create
+GET http://localhost:3000/twilio/sms
+# Content-Type: application/json
