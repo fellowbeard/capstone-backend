@@ -6,8 +6,8 @@ class TwilioController < ApplicationController
 
     client.messages.create(
     from: Rails.application.credentials.twilio[:TWIL_NUMBER],
-    to: "+17188770544",
-    body: "this is a test"
+    to: Rails.application.credentials.twilio[:MY_NUMBER],
+    body: "Your Monstera is thirsty!"
     )
   end
   

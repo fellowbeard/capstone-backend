@@ -43,5 +43,5 @@ Content-Type: application/json
 }
 
 ### Twilio Create
-GET http://localhost:3000/twilio/sms
+GET http://localhost:3000/twilio/sms/
 # Content-Type: application/json
