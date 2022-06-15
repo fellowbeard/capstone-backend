@@ -170,8 +170,6 @@ GEM
     reline (0.3.1)
       io-console (~> 0.5)
     ruby2_keywords (0.0.5)
-    sinatra (1.0)
-      rack (>= 1.0)
     strscan (3.0.3)
     thor (1.2.1)
     timeout (0.3.0)
@@ -203,7 +201,6 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.2, >= 7.0.2.3)
-  sinatra (= 1.0)
   twilio-ruby
   tzinfo-data
   whenever
